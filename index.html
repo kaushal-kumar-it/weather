@@ -1,0 +1,39 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <script src="https://cdn.jsdelivr.net/npm/axios@1.6.7/dist/axios.min.js"></script>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Weather</title>
+    <link rel="stylesheet" href="style.css">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.5.2/css/all.min.css" integrity="sha512-SnH5WK+bZxgPHs44uWIX+LLJAJ9/2PkPKZ5QiAj6Ta86w+fsb2TkcmfRyVX3pBnMFcV7oQPJkl9QevSCWr3W6A==" crossorigin="anonymous" referrerpolicy="no-referrer" />
+</head>
+<body>
+    <div class="main">
+        <div class="search">
+                <input type="text" class="city" placeholder="Enter City">
+            <button class="button"><i class="fa-solid fa-magnifying-glass"></i></button>
+        </div>
+        <div class="content">
+            <div class="img">
+                <img src="" class="imgg" alt="">
+            </div>
+            <h3 class="dict"></h3>
+            <h2 id="temp"></h2>
+            <h2 class="cityname">
+                
+            </h2>
+            <div class="wind">
+                <div class="wss">
+                    <h3 class="ws">
+                    </h3>
+                    <i class="fa-solid fa-wind"></i>
+                </div>
+                <div class="hmm">
+                    <h3 class="hm"></h3>
+                    <i class="fa-solid fa-droplet"></i>     
+                </div>
+    </div>
+    <script src="app.js"></script>
+</body>
+</html>

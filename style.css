@@ -1,0 +1,101 @@
+body{
+    margin: 0 auto;
+    display: flex;
+    flex-direction:row;
+    justify-content: center;
+    align-content: center;
+    background-color:darkseagreen;
+}
+.main{
+    border-radius: 7%;
+    margin-top: 50px;
+    display: flex;
+    justify-content:center;
+    flex-wrap: wrap;
+    background-image: url(bg.jpg);
+    background-size: cover;
+    /* background-color: aqua; */
+    height:500px;
+    width: 300px;
+}
+.search{
+    padding-left: 10%;
+    padding-right: 10%;
+    display:flex;
+    justify-content:center;
+    /* background-color:bisque; */
+    height: 12%;
+    width: 100%;
+}
+.city{
+    font-weight: bold;
+    text-align: center;
+    border-radius:20px;
+    margin-top: 5%;
+    margin-bottom: 5%;
+}
+.button{
+    border:none;
+    border-radius:none;
+    margin-left: 5%;
+    margin-top: 5%;
+    margin-bottom: 5%;
+    background-color: transparent;
+}
+#temp{
+        font-size:250%;
+    display: flex;
+    justify-content:center;
+    align-self: center;
+}
+.cityname{
+    font-size:300%;
+    display: flex;
+    justify-content:center;
+    align-self: center;
+}
+.img{
+    display: flex;
+    justify-content:center;
+}
+i{
+    margin-left:9%;
+    margin-top: 12px;
+    color:grey;
+    font-size: 30px;
+}
+.wind{
+    width: 260px;
+    display: flex;
+    justify-content: space-between;
+    flex-wrap: nowrap;
+}
+.wss{
+    align-content: center;
+    display: flex;
+    justify-content:center;
+    flex-wrap: nowrap;
+}
+.hmm{
+    align-content: center;
+    display: flex;
+    justify-content:center;
+    flex-wrap: nowrap;
+}
+.main:hover{
+    transition: 0.5s;
+    box-shadow: 10px 10px 10px  black;
+}
+.dict{
+    display: flex;
+    justify-content: center;
+    margin-top: 0%;
+    font-size: xx-large;
+}
+button i{
+    margin-top:0%;
+}
+.button i:hover{
+    transition: 0.5s;
+    font-size: xx-large;
+}
